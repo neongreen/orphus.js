@@ -36,6 +36,10 @@ orphus = (function () {
         cancel: "Cancel",
         entercmnt: "Comment (optional):"
     };
+    // You can use this variable to leave a message to users specifying what
+    // you don't consider as mistakes (so that they wouldn't be annoying
+    // you). If you don't want this, assign an empty string to it instead of
+    // this list.
     var nonMistakes = 
       "<ul>"
       + "<li>“ne”, “nir”, “nem”: see <a href='http://www.cs.virginia.edu/~evans/cs655/readings/purity.html'>this</a></li>"
@@ -215,11 +219,13 @@ orphus = (function () {
 
         poweredBy = wrapDiv("text-align:right", poweredBy);
 
-        var nonMistakesBox = 
-          wrapDiv("font-size:0.5em; line-height:100%;" +
-                  "width:50%; margin:1em auto; padding:0.5em 0 0 0.5em;" +
-                  "border:1px solid red",
-            "Non-mistakes: " + nonMistakes);
+        var nonMistakesBox = "";
+        if (nonMistakes != "") {
+          nonMistakesBox =
+            wrapDiv("font-size:0.5em; line-height:100%;" +
+                    "width:50%; margin:1em auto; padding:0.5em 0 0 0.5em;" +
+                    "border:1px solid red",
+              "Non-mistakes: " + nonMistakes); }
 
         var leftTagRepl = "<span style=\"background-color:#ff7373\">";
         var rightTagRepl = "</span>";
