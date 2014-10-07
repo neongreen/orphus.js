@@ -14,7 +14,7 @@ orphus = (function () {
     var orphusHomepage  = "http://orphus.ru/en/";
     // Put here a link to your site's section where you explain about Orphus.
     // If you don't, leave it empty.
-    var descrlink       = "http://artyom.me/inside#typo-correction";
+    var descrlink       = "http://github.com/neongreen/orphus.js";
     var leftSelTag      = "<!!!>";
     var rightSelTag     = "<!!!>";
     // Controls how many characters to the left and right of selected text
