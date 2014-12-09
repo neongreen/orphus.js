@@ -45,7 +45,7 @@ orphus = (function () {
       + "<li>“ne”, “nir”, “nem”: see <a href='http://www.cs.virginia.edu/~evans/cs655/readings/purity.html'>this</a></li>"
       + "<li>“on the 3rd hand”</li>"
       + "<li>“learned” instead of “learnt”</li>"
-      + "<li>“deers”, “sheeps”, “octopuses”, etc.</li>"
+      + "<li>“deers”, “sheeps”, “octopuses”, “indexes”, etc.</li>"
       + "<li>non-typographically-correct «'» and «...»</li>"
       + "<li>using hyphens -for grouping-</li>"
     + "</ul>";
