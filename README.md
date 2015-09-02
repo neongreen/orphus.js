@@ -5,6 +5,10 @@ on your site. Giving your readers an ability to report mistakes without
 having to send emails, leave comments, creating pull requests on GitHub,
 etc. is *awesome*. Everybody should have this on your site, including you.
 
+## A warning
+
+**Don't forget to replace my email and `nonMistakes` in the script with yours!**
+
 ## Usage
 
   * Register on [Orphus][]. Don't download any GIFs or the script they give
