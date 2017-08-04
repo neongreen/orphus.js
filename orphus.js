@@ -11,10 +11,10 @@
 orphus = (function () {
     var scriptVersion   = "5.01";
     var sendTo          = "yom@artyom.me";
-    var orphusHomepage  = "http://orphus.ru/en/";
+    var orphusHomepage  = "https://orphus.ru/en/";
     // Put here a link to your site's section where you explain about Orphus.
     // If you don't, leave it empty.
-    var descrlink       = "http://github.com/neongreen/orphus.js";
+    var descrlink       = "https://github.com/neongreen/orphus.js";
     var leftSelTag      = "<!!!>";
     var rightSelTag     = "<!!!>";
     // Controls how many characters to the left and right of selected text
