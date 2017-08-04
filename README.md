@@ -14,17 +14,18 @@ etc. is *awesome*. Everybody should have this on your site, including you.
   * Register on [Orphus][]. Don't download any GIFs or the script they give
     you, just register there.
 
-  * Download the script from this repo and put it on your site by adding
+  * Download the script from this repo and put it on your site. VERY
+    IMPORTANT: you have to add it before `</body>`, **not** into `<head>`, or
+    else it won't work. You also need the closing `</script>` tag.
 
     ~~~ html
     <script type="text/javascript" src="/orphus.js"></script>
     ~~~
 
-    before `</body></html>` on your site. Don't forget to replace your email
-    in the beginning of the script (`var sendTo = ...`) with the one you've
-    used to register. Also, change `nonMistakes` or assign `""` to it if you
-    don't want to warn your users about any common “mistakes” you don't
-    consider as such.
+    Don't forget to replace your email in the beginning of the script (`var
+    sendTo = ...`) with the one you've used to register. Also, change
+    `nonMistakes` or assign `""` to it if you don't want to warn your users
+    about any common “mistakes” you don't consider as such.
 
   * Tell your readers that they can select text and press
     <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to report mistakes! Don't forget to
