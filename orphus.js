@@ -40,15 +40,7 @@ orphus = (function () {
     // you don't consider as mistakes (so that they wouldn't be annoying
     // you). If you don't want this, assign an empty string to it instead of
     // this list.
-    var nonMistakes = 
-      "<ul>"
-      + "<li>“ne”, “nir”, “nem”: see <a href='http://www.cs.virginia.edu/~evans/cs655/readings/purity.html'>this</a></li>"
-      + "<li>“on the 3rd hand”</li>"
-      + "<li>“learned” instead of “learnt”</li>"
-      + "<li>“deers”, “sheeps”, “octopuses”, “indexes”, etc.</li>"
-      + "<li>non-typographically-correct «'» and «...»</li>"
-      + "<li>using hyphens -for grouping-</li>"
-    + "</ul>";
+    var nonMistakes = "";
     var _9 = "css";
     var _a = 0;
     var w = window;
